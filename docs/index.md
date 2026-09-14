@@ -8,7 +8,7 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
 ![board](images/undraw_scrum_board_re_wk7v.svg){: .center width=50%}
 
-[mail]: mailto:eric.madec@ecmorlaix.fr "eric.madec@ecmorlaix.fr"
+<!-- [mail]: mailto:eric.madec@ecmorlaix.fr "eric.madec@ecmorlaix.fr" -->
 
 ***
 <!-- 
@@ -485,8 +485,10 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
         - [La Belote](https://codex.forge.apps.education.fr/en_travaux/belote/#la-belote){target=_blank} _Dictionnaires_;
         - [Programmer un robot (2)](https://codex.forge.apps.education.fr/en_travaux/robot_2/){target=_blank} _Chaines de caractères_;
 
+-->
+
 ***
-## Le 12/09
+## Le 14/09
 
 === "CONTENU DE SÉANCE"
 
@@ -496,9 +498,9 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
 === "TRAVAIL À FAIRE"
 
-    - **Finir** le notebook des [recommandations de programmation appliquées à l'exercice série de notes sur Capytale n°4bbe-3858950](https://capytale2.ac-paris.fr/web/c/4bbe-3858950){target=_blank} et le **rendre** pour le 16/09 ;
+    - **Finir** le notebook des [recommandations de programmation appliquées à l'exercice série de notes sur Capytale n°4bbe-3858950](https://capytale2.ac-paris.fr/web/c/4bbe-3858950){target=_blank} et le **rendre** avant le 21/09 ;
 
--->
+
 
 ***
 ## Du 07/09
