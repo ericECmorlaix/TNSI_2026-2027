@@ -448,18 +448,9 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
            
 
 === "TRAVAIL À FAIRE"
-
-    - **S'entrainer** en POO en réalisant des exercices pratiques :
-        
-        - [`programmeur.saisit(code)`](https://codex.forge.apps.education.fr/exercices/syntaxe_poo/#programmeursaisitcode){target=_blank} ;
-        - [La classe Chien](https://codex.forge.apps.education.fr/exercices/poo_chien/#la-classe-chien){target=_blank} ;
-        - [Géométrie vectorielle en POO](https://codex.forge.apps.education.fr/en_travaux/geometrie_vectorielle_POO/){target=_blank} _Maths_ ;
-        - [La domotique (I)](https://codex.forge.apps.education.fr/en_travaux/domotique/){target=_blank} ;
-        - [La domotique (II)](https://codex.forge.apps.education.fr/en_travaux/domotique_II/){target=_blank} ;
-        - [Carrés semi-magiques (POO)](https://codex.forge.apps.education.fr/exercices/carre_semi_magiques/){target=_blank} _Tableaux;
-        - [La Belote](https://codex.forge.apps.education.fr/en_travaux/belote/#la-belote){target=_blank} _Dictionnaires_;
-        - [Programmer un robot (2)](https://codex.forge.apps.education.fr/en_travaux/robot_2/){target=_blank} _Chaines de caractères_;
-
+    
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
+         
 ***
 -->
 
@@ -468,13 +459,11 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 === "CONTENU DE SÉANCE"
 
     - Retour sur le T.A.F. ;
-
     - Introduction à la [Programmation Orientée Objet](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Introduction_Programmation_Orientee_Objet.ipynb){target=_blank} [Capytale n°914d-3933344](https://capytale2.ac-paris.fr/web/c/914d-3933344){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Introduction_Programmation_Orientee_Objet.ipynb){ .md-button .md-button--primary} ;
            
-
 === "TRAVAIL À FAIRE"
 
-   - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
    
 ***
 ## Le 14/09
