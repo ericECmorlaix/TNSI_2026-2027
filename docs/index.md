@@ -432,17 +432,18 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sccsdWGZtAU?si=kavx8VIAgGI4ikgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/2RocXKPPx4o?si=s6syLbtogjhpU6Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+-->
 ***
-## Du 26/09
+
+## Du 28/09
 
 === "CONTENU DE SÉANCE"
 
     - Retour sur le T.A.F. ;
 
-    - [Synthèse de Programmation Orientée Objet](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-SyntheseProgrammationOrienteeObjet.ipynb){target=_blank} 
+    - [Synthèse de Programmation Orientée Objet](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Synthese_Programmation_Orientee_Objet.ipynb){target=_blank} 
     [Capytale n° af58-4011978](https://capytale2.ac-paris.fr/web/c/af58-4011978){target=_blank .md-button .md-button--primary} 
-    [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-SyntheseProgrammationOrienteeObjet.ipynb){ .md-button .md-button--primary};
+    [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Synthese_Programmation_Orientee_Objet.ipynb){ .md-button .md-button--primary};
 
     - **Explorer** les environnements de développement associés aux projets de la fête de la science et y appliquer de la POO...
            
@@ -452,7 +453,7 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
     - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
          
 ***
--->
+
 
 ## Le 21/09
 
@@ -460,11 +461,11 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
     - Retour sur le T.A.F. ;
     - Introduction à la [Programmation Orientée Objet](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Introduction_Programmation_Orientee_Objet.ipynb){target=_blank} [Capytale n°914d-3933344](https://capytale2.ac-paris.fr/web/c/914d-3933344){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/LP/POO-Introduction_Programmation_Orientee_Objet.ipynb){ .md-button .md-button--primary} ;
-           
+
 === "TRAVAIL À FAIRE"
 
     - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
-   
+
 ***
 ## Le 14/09
 
