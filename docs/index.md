@@ -384,10 +384,7 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
     - **Faire** en DM [la partie 1 de POO **+ Liste**](./SD/DM_POO_Liste.pdf) la [partie 3 POO **+ Pile**](./SD/Eval_1p3_POO+Pile.pdf) et le [DM Pile-File](./SD/DM_Pile_File.pdf){target=_blank} ;
       
-    - **S'entrainer** en réalisant des [exercices pratiques de Codex via Capytale n°`00d9-7948274`](https://capytale2.ac-paris.fr/web/c/00d9-7948274){target=_blank} tout en conservant une trace de vos développements dans le notebook [Exos-structures_linéaires-POO Capytale n°`8337-8033909`](https://capytale2.ac-paris.fr/web/c/8337-8033909){target=_blank}  ;
-        
-     
-
+  
  
         
 
@@ -405,39 +402,33 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
 === "TRAVAIL À FAIRE"
 
-    - **S'entrainer** en réalisant des exercices pratiques :
-        
-        - [`programmeur.saisit(code)`](https://codex.forge.apps.education.fr/exercices/syntaxe_poo/#programmeursaisitcode){target=_blank} ;
-        - [La classe Chien](https://codex.forge.apps.education.fr/exercices/poo_chien/#la-classe-chien){target=_blank} ;
-        - [Géométrie vectorielle en POO](https://codex.forge.apps.education.fr/en_travaux/geometrie_vectorielle_POO/){target=_blank} *Maths* ;
-        - [La domotique (I)](https://codex.forge.apps.education.fr/en_travaux/domotique/){target=_blank} ;
-        - [La domotique (II)](https://codex.forge.apps.education.fr/en_travaux/domotique_II/){target=_blank} ;
-        - [Carrés semi-magiques (POO)](https://codex.forge.apps.education.fr/exercices/carre_semi_magiques/){target=_blank} *Tableaux* ;
-        - [La Belote](https://codex.forge.apps.education.fr/en_travaux/belote/#la-belote){target=_blank} *Dictionnaires*;
-        - [Programmer un robot (2)](https://codex.forge.apps.education.fr/en_travaux/robot_2/){target=_blank} *Chaines de caractères* ;
-        - [Mme Tortue et M. Lièvre font la course](https://codex.forge.apps.education.fr/exercices/lievre_tortue/){target=_blank} *Structure linéaire* ;
-        - [Jeu de la ronde (2)](https://codex.forge.apps.education.fr/en_travaux/ronde_2/){target=_blank} *Structure linéaire* ;
-        - [Évaluation d'une expression postfixe](https://codex.forge.apps.education.fr/exercices/eval_postfixe/){target=_blank} *Piles* ;
-        - [Filtre des nombres positifs d'une pile](https://codex.forge.apps.education.fr/exercices/filtre_pile/){target=_blank} *Piles* ;
-        - [Parenthésage correct](https://codex.forge.apps.education.fr/en_travaux/parentheses/){target=_blank} *Piles* ;
-        - [Expression bien parenthésée (2)](https://codex.forge.apps.education.fr/exercices/expression_bien_parenthesee_2/){target=_blank} *Piles*;
-        - [File avec deux piles](https://codex.forge.apps.education.fr/en_travaux/file_deux_piles/){target=_blank} *Structure linéaire* ; 
-        - [Autour des files](https://codex.forge.apps.education.fr/exercices/autour_des_files/){target=_blank} *Files* ;
-        - [File à partir d'une liste chainée](https://codex.forge.apps.education.fr/exercices/file_avec_liste/){target=_blank} *Files* ;
-
-        - **Découvrir** l'interface graphique **Dear PyGui** à l'aide de [sa documentation](https://dearpygui.readthedocs.io){target=_blank} et de [la playlist de Frédéric LEULEU](https://youtu.be/AtQAfI91GcI?si=uTl8KkSBcn3oDo-y){target=_blank} et d'autres tutoriels comme :
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/f80-gyFG0vA?si=n3pFw4YCGtgXSBNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sccsdWGZtAU?si=kavx8VIAgGI4ikgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2RocXKPPx4o?si=s6syLbtogjhpU6Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+   
 - Evaluation POO ;
 
 -->
+
+
 ***
 
+## Le 04/11
+
+=== "CONTENU DE SÉANCE"    
+    
+    - **Finir** et **rendre** :
+        - [Liste](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){target=_blank} [Capytale n° f652-4226408](https://capytale2.ac-paris.fr/web/c/f652-4226408){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){ .md-button .md-button--primary} ;
+        - [Pile](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){target=_blank} [Capytale n° 39ef-4226515](https://capytale2.ac-paris.fr/web/c/39ef-4226515){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){ .md-button .md-button--primary} ;
+        - [File](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){target=_blank} [Capytale n° 48d0-4226569](https://capytale2.ac-paris.fr/web/c/48d0-4226569){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){ .md-button .md-button--primary} ;
+
+
+=== "TRAVAIL À FAIRE"
+
+    - **Se préparer** pour une évaluation portant sur la POO et les listes chainées ==pour le 06/11== ;
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
+    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank}
+   
+
+
+***
 
 ## Du 12/10
 
