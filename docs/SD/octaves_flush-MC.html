@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Octaves flush</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 16px; background: #fff; color: #222; }
+  h1 { color: #c00; font-variant: small-caps; margin: .2em 0; }
+  .regles { max-width: 640px; margin: 0 auto 12px; text-align: left; font-size: 17px; }
+  .boutons button { font-size: 22px; min-width: 52px; padding: 4px 10px; margin: 3px; cursor: pointer;
+                    border-radius: 6px; border: 1px solid #888; background: #f4f4f4; }
+  .boutons button.petit { font-size: 15px; }
+  #jeu { position: relative; display: inline-block; padding-top: 70px; margin-top: 10px; }
+  #fleches { position: absolute; top: 0; left: 0; }
+  .zones { display: flex; gap: 50px; }
+  .zone { display: flex; flex-direction: column; align-items: center; }
+  .boite { width: 100px; height: 330px; border: 3px solid; border-radius: 18px; box-sizing: border-box;
+           display: flex; flex-direction: column-reverse; align-items: center; padding: 8px 0; gap: 4px; }
+  .carte { width: 76px; height: 34px; border: 2px solid #777; border-radius: 6px; flex: none;
+           display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 18px; }
+  .label { margin-top: 6px; font-size: 18px; }
+  #message { min-height: 1.5em; font-size: 18px; margin-top: 12px; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>Octaves flush</h1>
+<p><b>D'après Don Knuth</b></p>
+
+<div class="regles">
+  <p>But du jeu : obtenir dans la sortie les cartes rangées <b>A, 2, 3 … 8 de haut en bas</b>, avec seulement deux opérations :</p>
+  <ul>
+    <li><b>Empiler ↓</b> : la carte du haut des cartes passe au sommet de la pile.</li>
+    <li><b>Dépiler ↑</b> : la carte au sommet de la pile passe au sommet de la sortie.</li>
+  </ul>
+</div>
+
+<div class="boutons">
+  <button onclick="empiler()" title="Empiler (flèche bas)" style="color:#2a4fd0">↓</button>
+  <button onclick="depiler()" title="Dépiler (flèche haut)" style="color:#c03030">↑</button>
+  <br>
+  <button class="petit" onclick="annuler()">Annuler</button>
+  <button class="petit" onclick="init(donneCourante)">Recommencer</button>
+  <button class="petit" onclick="nouvelleDonne()">Nouvelle donne</button>
+  <label><input type="checkbox" id="possible" checked> donnes toujours possibles</label>
+</div>
+
+<div id="jeu">
+  <svg id="fleches" width="400" height="70">
+    <defs>
+      <marker id="pointeBleue" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+        <path d="M0,0 L10,5 L0,10 z" fill="#2a4fd0"/>
+      </marker>
+      <marker id="pointeRouge" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+        <path d="M0,0 L10,5 L0,10 z" fill="#c03030"/>
+      </marker>
+    </defs>
+    <path d="M65 66 Q125 6 185 62" stroke="#2a4fd0" stroke-width="5" fill="none" marker-end="url(#pointeBleue)"/>
+    <path d="M215 66 Q275 6 335 62" stroke="#c03030" stroke-width="5" fill="none" marker-end="url(#pointeRouge)"/>
+    <text x="125" y="14" text-anchor="middle" fill="#2a4fd0" font-size="15">↓ empiler</text>
+    <text x="275" y="14" text-anchor="middle" fill="#c03030" font-size="15">↑ dépiler</text>
+  </svg>
+
+  <div class="zones">
+    <div class="zone"><div class="boite" id="bEntree" style="border-color:#666"></div><div class="label">cartes</div></div>
+    <div class="zone"><div class="boite" id="bPile" style="border-color:#5560c0"></div><div class="label" style="color:#5560c0">pile</div></div>
+    <div class="zone"><div class="boite" id="bSortie" style="border-color:#d06060"></div><div class="label" style="color:#d06060">sortie</div></div>
+  </div>
+</div>
+
+<div id="message"></div>
+<div>Coups : <span id="coups">0</span></div>
+
+<script>
+const NOMS = ['', 'A', '2', '3', '4', '5', '6', '7', '8'];
+const COUL = ['', '#5ad1f0', '#b6d61a', '#e8b4b0', '#f3c44f', '#b9a0e8', '#7fd3a0', '#f59ad0', '#f0a060'];
+
+// entree[0] = carte du haut ; pile et sortie : dernier élément = sommet
+let entree, pile, sortie, coups, histo, perdu;
+let donneCourante = [4, 5, 6, 7, 8, 1, 2, 3];
+
+function init(donne) {
+  entree = donne.slice(); pile = []; sortie = [];
+  coups = 0; histo = []; perdu = "";
+  afficher();
+}
+
+function sauver() {
+  histo.push(JSON.stringify({ entree, pile, sortie, coups, perdu }));
+}
+
+function empiler() {
+  if (entree.length === 0) return;
+  sauver();
+  pile.push(entree.shift());
+  coups++;
+  afficher();
+}
+
+function depiler() {
+  if (pile.length === 0) return;
+  sauver();
+  const c = pile.pop();
+  const attendu = 8 - sortie.length;     // il faut sortir 8, puis 7, ... puis A
+  if (c !== attendu && !perdu) perdu = "Perdu : le " + NOMS[c] + " est sorti avant le " + NOMS[attendu] + ".";
+  sortie.push(c);
+  coups++;
+  afficher();
+}
+
+function annuler() {
+  if (histo.length === 0) return;
+  ({ entree, pile, sortie, coups, perdu } = JSON.parse(histo.pop()));
+  afficher();
+}
+
+function soluble(d) {
+  const p = []; let att = 8;
+  for (const c of d) {
+    p.push(c);
+    while (p.length && p[p.length - 1] === att) { p.pop(); att--; }
+  }
+  return att === 0;
+}
+
+function nouvelleDonne() {
+  let d;
+  do {
+    d = [1, 2, 3, 4, 5, 6, 7, 8];
+    for (let i = d.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [d[i], d[j]] = [d[j], d[i]];
+    }
+  } while (document.getElementById('possible').checked && !soluble(d));
+  donneCourante = d;
+  init(d);
+}
+
+function carte(v) {
+  const e = document.createElement('div');
+  e.className = 'carte';
+  e.style.background = COUL[v];
+  e.textContent = NOMS[v] + ' ♠';
+  return e;
+}
+
+function remplir(id, cartesDuBasVersLeHaut) {
+  const b = document.getElementById(id);
+  b.innerHTML = '';
+  for (const v of cartesDuBasVersLeHaut) b.appendChild(carte(v));
+}
+
+function afficher() {
+  remplir('bEntree', entree.slice().reverse());
+  remplir('bPile', pile);
+  remplir('bSortie', sortie);
+  document.getElementById('coups').textContent = coups;
+
+  const m = document.getElementById('message');
+  const attendu = 8 - sortie.length;
+  m.style.color = '#c00';
+  if (perdu) {
+    m.textContent = perdu + " Annule ou recommence.";
+  } else if (sortie.length === 8) {
+    m.style.color = '#080';
+    m.textContent = "Bravo ! Rangé en " + coups + " coups.";
+  } else if (pile.includes(attendu) && pile[pile.length - 1] !== attendu) {
+    m.textContent = "Impossible : le " + NOMS[attendu] + " est coincé sous le " + NOMS[pile[pile.length - 1]] + " dans la pile.";
+  } else {
+    m.textContent = "";
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowDown') { e.preventDefault(); empiler(); }
+  if (e.key === 'ArrowUp')   { e.preventDefault(); depiler(); }
+});
+
+init(donneCourante);
+</script>
+</body>
+</html>

@@ -407,7 +407,6 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
 -->
 
-
 ***
 
 ## Le 04/11
@@ -423,10 +422,9 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 === "TRAVAIL À FAIRE"
 
     - **Se préparer** pour une évaluation portant sur la POO et les listes chainées ==pour le 06/11== ;
-    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank}
-    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank}
-   
-
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank} ;
+    - **Jouer** avec des piles : [Octaves flush ](./SD/octaves_flush-MC.html){target=_blank} ;
+    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank} ;
 
 ***
 
