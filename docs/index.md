@@ -344,68 +344,50 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
     - **Appliquer** la récursivité aux exercices pratiques [Suite de Fibonacci (1)](https://codex.forge.apps.education.fr/en_travaux/fib_1/){target=_blank}, [Répertoires sous Linux](https://codex.forge.apps.education.fr/en_travaux/repertoire_linux_POO/#repertoires-sous-linux){target=_blank} et [Codex/Capytale n°`f002-8216508`](https://capytale2.ac-paris.fr/web/c/f002-8216508){target=_blank} en conservant une trace de vos codes sur [Capytale n° ffd8-4491748](https://capytale2.ac-paris.fr/web/c/ffd8-4491748){target=_blank .md-button .md-button--primary} ;
 
     - **Finir** les [exercices pratiques de Codex via Capytale n°`00d9-7948274`](https://capytale2.ac-paris.fr/web/c/00d9-7948274){target=_blank} tout en conservant une trace de vos développements dans le notebook [Exos-structures_linéaires-POO Capytale n°`8337-8033909`](https://capytale2.ac-paris.fr/web/c/8337-8033909){target=_blank}  ; 
-       
+
+
+--> 
 ***       
 
-## Du 24/11
+## Du 09/11
 
 === "CONTENU DE SÉANCE"    
 
     - **Découvrir** la [programmation récursive](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/LP/Recursif.ipynb){target=_blank} [Capytale n° 1101-4437530](https://capytale2.ac-paris.fr/web/c/1101-4437530){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/LP/Recursif.ipynb){ .md-button .md-button--primary} ;
 
-    - **Proposer** une version récursive pour la fonction `longueur(liste)` qui renvoie la longueur de la liste chaînée `liste` telle que définie dans [le DM sur les listes chainées](./SD/DM_POO_Liste.pdf){target=_blank} [Capytale n° 747d-4440073](https://capytale2.ac-paris.fr/web/c/747d-4440073){target=_blank .md-button .md-button--primary} ;    
+    - **Proposer** une version récursive pour la fonction `longueur(liste)` qui renvoie la longueur de la liste chaînée `liste` telle que définie dans [le sujet de l'évaluation sur les listes chainées Capytale n° 747d-4440073](https://capytale2.ac-paris.fr/web/c/747d-4440073){target=_blank .md-button .md-button--primary} ;    
 
-    - **Appliquer** la récursivité aux exercices pratiques [Suite de Fibonacci (1)](https://codex.forge.apps.education.fr/en_travaux/fib_1/){target=_blank}, [Répertoires sous Linux](https://codex.forge.apps.education.fr/en_travaux/repertoire_linux_POO/#repertoires-sous-linux){target=_blank} et [Codex/Capytale n°`f002-8216508`](https://capytale2.ac-paris.fr/web/c/f002-8216508){target=_blank} en conservant une trace de vos codes sur [Capytale n° ffd8-4491748](https://capytale2.ac-paris.fr/web/c/ffd8-4491748){target=_blank .md-button .md-button--primary} ;
+    - **Appliquer** la récursivité aux exercices pratiques [Codex Récursif sur Capytale n°`ea01-12668546`](https://capytale2.ac-paris.fr/web/c/ea01-12668546){target=_blank} et [Répertoires sous Linux](https://codex.forge.apps.education.fr/en_travaux/repertoire_linux_POO/#repertoires-sous-linux){target=_blank} ;
 
 === "TRAVAIL À FAIRE"
-
-    - **Rendre** Structure Linéaire de Données :
+   
+    - **Finaliser** en DM l'évaluation portant sur la POO et les listes chainées ;
+    - **Rendre** :
         - [Liste](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){target=_blank} [Capytale n° f652-4226408](https://capytale2.ac-paris.fr/web/c/f652-4226408){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){ .md-button .md-button--primary} ;
         - [Pile](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){target=_blank} [Capytale n° 39ef-4226515](https://capytale2.ac-paris.fr/web/c/39ef-4226515){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){ .md-button .md-button--primary} ;
         - [File](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){target=_blank} [Capytale n° 48d0-4226569](https://capytale2.ac-paris.fr/web/c/48d0-4226569){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){ .md-button .md-button--primary} ;
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank} ;
+    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank} ;
 
-    - **S'entrainer** en réalisant des [exercices pratiques de Codex via Capytale n°`00d9-7948274`](https://capytale2.ac-paris.fr/web/c/00d9-7948274){target=_blank} tout en conservant une trace de vos développements dans le notebook [Exos-structures_linéaires-POO Capytale n°`8337-8033909`](https://capytale2.ac-paris.fr/web/c/8337-8033909){target=_blank}  ;     
-
-***
-
-## Du 03/11
-
-=== "CONTENU DE SÉANCE"    
-
-    - Correction de l'évaluation POO [partie 1](./SD/Eval_1p1_POO.pdf){target=_blank}, [partie 2](./SD/Eval_1p2_POO.pdf){target=_blank}[Correction partie 2](./SD/Eval_1p2_POO-COR.pdf){target=_blank}, [partie 3](./SD/Eval_1p3_POO.pdf){target=_blank} ;
-    
-    - **Finir** Structure Linéaire de Données :
-        - [Liste](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){target=_blank} [Capytale n° f652-4226408](https://capytale2.ac-paris.fr/web/c/f652-4226408){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){ .md-button .md-button--primary} ;
-        - [Pile](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){target=_blank} [Capytale n° 39ef-4226515](https://capytale2.ac-paris.fr/web/c/39ef-4226515){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){ .md-button .md-button--primary} ;
-        - [File](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){target=_blank} [Capytale n° 48d0-4226569](https://capytale2.ac-paris.fr/web/c/48d0-4226569){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){ .md-button .md-button--primary} ;
-
-
-=== "TRAVAIL À FAIRE"
-
-    - **Faire** en DM [la partie 1 de POO **+ Liste**](./SD/DM_POO_Liste.pdf) la [partie 3 POO **+ Pile**](./SD/Eval_1p3_POO+Pile.pdf) et le [DM Pile-File](./SD/DM_Pile_File.pdf){target=_blank} ;
-      
-  
- 
         
 
 ***
-## Du 16/10
+## Le 06/11
 
 === "CONTENU DE SÉANCE"    
 
-    - Evaluation POO ;
-    - Structure Linéaire de Données :
+    - Evaluation portant sur la POO et les listes chainées ;
+
+=== "TRAVAIL À FAIRE"
+   
+    - **Finaliser** en DM l'évaluation portant sur la POO et les listes chainées ;
+    - **Rendre** :
         - [Liste](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){target=_blank} [Capytale n° f652-4226408](https://capytale2.ac-paris.fr/web/c/f652-4226408){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Liste.ipynb){ .md-button .md-button--primary} ;
         - [Pile](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){target=_blank} [Capytale n° 39ef-4226515](https://capytale2.ac-paris.fr/web/c/39ef-4226515){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-Pile.ipynb){ .md-button .md-button--primary} ;
         - [File](https://nbviewer.org/urls/ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){target=_blank} [Capytale n° 48d0-4226569](https://capytale2.ac-paris.fr/web/c/48d0-4226569){target=_blank .md-button .md-button--primary} [:fontawesome-solid-download:](https://ericecmorlaix.github.io/TNSI_2026-2027/SD/Structure_Lineaire-File.ipynb){ .md-button .md-button--primary} ;
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank} ;
+    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank} ;
 
-
-=== "TRAVAIL À FAIRE"
-
-   
-- Evaluation POO ;
-
--->
 
 ***
 
