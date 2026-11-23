@@ -347,6 +347,23 @@ Ce site s'adresse au groupe des élèves de terminale du lycée Notre Dame du Mu
 
 
 --> 
+
+***       
+
+## Le 23/11
+
+=== "CONTENU DE SÉANCE"    
+
+    - Correction évaluation [POO](https://capytale2.ac-paris.fr/web/c/9286-13048062/local){target=_blank} , [liste chainée](https://capytale2.ac-paris.fr/web/c/747d-4440073){target=_blank} ;
+    - Synthèse [Liste](https://capytale2.ac-paris.fr/web/c/f652-4226408){target=_blank}, [Pile](https://capytale2.ac-paris.fr/web/c/39ef-4226515){target=_blank}, [File](https://capytale2.ac-paris.fr/web/c/48d0-4226569){target=_blank}, [programmation récursive](https://capytale2.ac-paris.fr/web/c/1101-4437530){target=_blank} ;
+        
+    
+=== "TRAVAIL À FAIRE"
+   
+    - **Appliquer** la récursivité aux exercices pratiques [Codex Récursif sur Capytale n°`ea01-12668546`](https://capytale2.ac-paris.fr/web/c/ea01-12668546){target=_blank} et [Répertoires sous Linux](https://codex.forge.apps.education.fr/en_travaux/repertoire_linux_POO/#repertoires-sous-linux){target=_blank} ;
+    - **S'entrainer** en POO en réalisant des exercices pratiques avec [Codex sur Capytale n°`c694-11718021`](https://capytale2.ac-paris.fr/web/c/c694-11718021){target=_blank} ;
+    - **S'entrainer** avec des structures linéaires en réalisant des exercices pratiques avec [Codex sur Capytale n°`5ae9-12524971`](https://capytale2.ac-paris.fr/web/c/5ae9-12524971){target=_blank} ;
+
 ***       
 
 ## Du 09/11
